@@ -1,6 +1,6 @@
 # PeMS-VMT
 
-Scripts for preparing Caltran's Perfomrance Monitoring System (PeMS) freeway VMT data.
+Scripts for preparing Caltran's Performance Monitoring System (PeMS) freeway VMT data.
 
 ## Links
 
