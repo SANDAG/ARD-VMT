@@ -11,5 +11,16 @@ if not exist "data\" (
     mkdir data
 )
 
+if not exist "src\vmt\" (
+    mkdir "src\vmt\"
+    copy NUL "__init__.py"
+)
+
 echo "Installing repository as package."
 uv pip install -e .
+
+if not exist "printout\" (
+    mkdir "printout\"
+)
+
+::
